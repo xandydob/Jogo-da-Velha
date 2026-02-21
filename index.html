@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha Moderno</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Jogo da Velha</h1>
+
+        <h2 class="titulo-placar">Placar do Jogo</h2>
+
+        <div class="placar">
+            <div class="card">
+                <span>Jogador X</span>
+                <strong id="scoreX">0</strong>
+            </div>
+            <div class="divisor"></div>
+            <div class="card">
+                <span>Jogador O</span>
+                <strong id="scoreO">0</strong>
+            </div>
+        </div>
+
+        <div id="mensagem" class="status">Vez do X</div>
+
+        <div class="tabuleiro" id="tabuleiro">
+            <div class="celula" data-index="0"></div>
+            <div class="celula" data-index="1"></div>
+            <div class="celula" data-index="2"></div>
+            <div class="celula" data-index="3"></div>
+            <div class="celula" data-index="4"></div>
+            <div class="celula" data-index="5"></div>
+            <div class="celula" data-index="6"></div>
+            <div class="celula" data-index="7"></div>
+            <div class="celula" data-index="8"></div>
+        </div>
+
+        <button id="reset">Reiniciar Partida</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
